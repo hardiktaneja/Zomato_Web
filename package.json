@@ -1,0 +1,29 @@
+{
+  "name": "zomato-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardiktaneja/Zomato_Web.git"
+  },
+  "author": "Hardik Taneja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardiktaneja/Zomato_Web/issues"
+  },
+  "homepage": "https://github.com/hardiktaneja/Zomato_Web#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "requests": "^0.2.2",
+    "zomato": "^1.1.0"
+  }
+    "engines": {
+    "node": "10.x"
+  }
+}
