@@ -1,8 +1,8 @@
 var express = require("express"),
     app = express(),
-    bodyparser= require("body-parser"),
+    // bodyparser= require("body-parser"),
     request = require("request");
-app.use(bodyparser.urlencoded({extended : true}));
+// app.use(bodyparser.urlencoded({extended : true}));
 
 app.use(express.static("public"));
 
