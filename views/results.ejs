@@ -1,6 +1,27 @@
+<% include partials/header %>
+<!--<h1>THIS IS IT</h1>-->
+<div class = "container">
+    <div class="jumbotron">
+      <h1> Welcome to Zomato API</h1>
+      <p>Find Restaraunts near you.</p>
+    </div>
+    
+    
+        <% data.restaurants.forEach(function(one){ %>
+    
+<div class="row text-center" >
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src = <%= one.restaurant.thumb %> >
+                <div class="caption">        
+                <h4> <%=  one.restaurant.name %> </h4></div>
+                <p><a href=<%= one.restaurant.url%> class= "btn btn-primary">More info</a></p>
+            </div>
+         </div>  
+    
+           <% }) ;%>
+    
+</div>
 
-<h1>THIS IS IT</h1>
 
-<% data.restaurants.forEach(function(one){ %>
-<li> <%= one.restaurant.name  %></li>
-<% }) %>
+<% include partials/footer %>
